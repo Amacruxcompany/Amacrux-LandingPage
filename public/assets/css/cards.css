@@ -1,0 +1,177 @@
+.card {
+  margin: 20px;
+}
+
+/*seccion que separa las cards*/
+.container-flip {
+
+  margin-left: 3em;
+
+}
+
+
+/*seccion que mueve las cards en bloques */
+.card-container {
+
+
+
+  display: grid;
+  perspective: 700px;
+}
+
+.card-flip {
+
+  width: 295px;
+  height: 355px;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-out;
+  background: linear-gradient(179.3deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.1) 100%);
+  border-radius: 15px;
+  padding: 10px;
+  margin-left: -25px;
+  box-sizing: border-box;
+}
+
+.card-flip div {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  height: 100%;
+  width: 100%;
+
+
+}
+
+.card-flip .front {
+  position: relative;
+  z-index: 1;
+}
+
+.card-flip .back {
+  position: relative;
+  z-index: 0;
+  transform: rotateY(-180deg);
+}
+
+.card-container:hover .card-flip {
+  transform: rotateY(180deg);
+}
+
+.front img {
+  margin-top: 30px;
+}
+
+.back img {
+  margin-top: -550px;
+}
+
+.card-subtitle {
+
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #fff;
+
+}
+
+
+.card-text {
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  color: #CDD6F6;
+  text-align: justify;
+  padding: 10px;
+
+
+}
+
+.text {
+  margin-top: -205px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  color: #CDD6F6;
+  text-align: justify;
+  padding: 18px;
+
+}
+
+.see {
+  width: 50%;
+  margin-left: 140px;
+  margin-top: -25px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 36px;
+  color: #8BF7D1;
+
+}
+
+.see2 {
+  width: 50%;
+  margin-left: 140px;
+  margin-top: 15px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 36px;
+  color: #8BF7D1;
+
+}
+
+.see3 {
+  width: 50%;
+  margin-left: 140px;
+  margin-top: 15px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 36px;
+  color: #8BF7D1;
+
+}
+
+.see4 {
+  width: 50%;
+  margin-left: 140px;
+  margin-top: 37px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 36px;
+  color: #8BF7D1;
+
+}
+
+@media (max-width:1118px) {
+  .container-flip {
+    width: 100%;
+    margin-left: 0;
+   
+   
+
+  }
+
+  .card-container {
+
+    width: 100%;
+    margin-left: 4em;
+
+  }
+
+
+
+
+}
+
+
+@media (max-width: 575px) {
+  .container-flip {
+    width: 100%;
+    margin-left: 0.5em;
+  }
+
+}
