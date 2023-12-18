@@ -115,17 +115,6 @@ header {
   transition: top 0.3s;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  padding: 10px;
-  position: fixed;
-  width: 100%;
-  transition: top 0.3s;
-}
-
 header.hidden {
   top: -100px;
 }
@@ -709,7 +698,7 @@ max-width: 100%;
   width: 166.607px;
   height: 53.349px;
   padding: 21.411px;
-  margin-left: 295px;
+  margin-left: 287px;
   margin-top: 20px;
   flex-direction: column;
   justify-content: center;
@@ -1461,7 +1450,7 @@ margin-top: 10%;
 
   .container-carrusel h1 {
     margin-left: -45%;
-    margin-top: -200%;
+    margin-top: -180%;
     font-size: 1px;
   }
 
@@ -1475,7 +1464,7 @@ margin-top: 10%;
 
 
   .waths {
-    top: 205%;
+    top: 195%;
     left: 90px;
   }
 
@@ -1743,6 +1732,7 @@ margin-top: 10%;
 /*--------------------------------------------------------------
 # EndNewSection
 --------------------------------------------------------------*/
+
 footer {
   position: absolute;
   color: #fff;
