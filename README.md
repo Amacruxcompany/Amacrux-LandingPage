@@ -32,3 +32,7 @@ Landing page de amacrux, open source y de la comunidad
     └── /pages/
         └── Archivos HTML
 ```
+
+# LICENSE
+
+License powered By MIT LICENSE
