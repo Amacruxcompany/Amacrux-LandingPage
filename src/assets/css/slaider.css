@@ -341,13 +341,13 @@
     }
   
     .order-1 {
-      left: 65px;
+      left: 72px;
       top: -45px;
     }
   
   
     #myCarousel .carousel-item .mask {
-      width: 40%;
+      width: 42%;
       height: 45%;
   
   
@@ -370,7 +370,7 @@
   
   
       padding-left: 38%;
-      width: 65%;
+      max-width: 70%;
   
     }
   
