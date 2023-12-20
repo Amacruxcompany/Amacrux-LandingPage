@@ -14,7 +14,7 @@
 
 }
 
-.slaider {
+.slider {
   margin-left: 205px;
   position: absolute;
   margin-top: -1182px;
@@ -332,68 +332,68 @@
 
 @media (min-width:320px) and (max-width: 480px) {
 
-  
-    .slaider {
-  
-      margin-left: -5px;
-      position: absolute;
-      margin-top: -2382px;
-    }
-  
-    .order-1 {
-      left: 72px;
-      top: -45px;
-    }
-  
-  
-    #myCarousel .carousel-item .mask {
-      width: 42%;
-      height: 45%;
-  
-  
-    }
-  
-  
-    #myCarousel .letras {
-  
-      width: 75%;
-      font-size: 8px;
-      margin-top: -55%;
-      margin-left: 15%;
-  
-  
-    }
-  
-  
-  
-    #myCarousel .carousel-item .mask img {
-  
-  
-      padding-left: 38%;
-      max-width: 70%;
-  
-    }
-  
-  
-    #myCarousel h4 {
-      margin-left: 115px;
-      font-size: 10px;
-      margin-top: -210px;
-  
-  
-    }
-  
-  
-    #myCarousel p {
-  
-      font-size: 6px;
-      margin-top: -40%;
-      width: 75%;
-      padding: 1px;
-  
-    }
-  
-  
-  
-  
+
+  .slider {
+
+    margin-left: -5px;
+    position: absolute;
+    margin-top: -2382px;
   }
+
+  .order-1 {
+    left: 72px;
+    top: -45px;
+  }
+
+
+  #myCarousel .carousel-item .mask {
+    width: 42%;
+    height: 45%;
+
+
+  }
+
+
+  #myCarousel .letras {
+
+    width: 75%;
+    font-size: 8px;
+    margin-top: -55%;
+    margin-left: 15%;
+
+
+  }
+
+
+
+  #myCarousel .carousel-item .mask img {
+
+
+    padding-left: 38%;
+    max-width: 70%;
+
+  }
+
+
+  #myCarousel h4 {
+    margin-left: 115px;
+    font-size: 10px;
+    margin-top: -210px;
+
+
+  }
+
+
+  #myCarousel p {
+
+    font-size: 6px;
+    margin-top: -40%;
+    width: 75%;
+    padding: 1px;
+
+  }
+
+
+
+
+}

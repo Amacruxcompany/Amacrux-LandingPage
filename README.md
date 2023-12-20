@@ -15,7 +15,7 @@ Landing page de amacrux, open source y de la comunidad
     │   ├── /css/
     │   │   ├── cardRoad.css
     │   │   ├── reloj.css
-    │   │   ├── slaider.css
+    │   │   ├── slider.css
     │   │   └── style.css
     │   ├── /js/
     │   │   ├── bnbcarrousel.js
@@ -23,7 +23,7 @@ Landing page de amacrux, open source y de la comunidad
     │   │   ├── cards.js
     │   │   ├── main.js
     │   │   ├── reloj.js
-    │   │   └── slaider.js
+    │   │   └── slider.js
     │   └── /img/
     │       └── Recursos gráficos...
     ├── /vendor/
