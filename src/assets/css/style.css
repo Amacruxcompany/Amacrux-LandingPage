@@ -205,18 +205,27 @@ header.hidden {
 
 
   header {
-    margin-left: -275px;
+    margin-left: -1px;
+  }
+
+  body {
+    overflow-x: hidden;
   }
 
   .boton {
     border: 2px solid #28d1be;
-   
+
     font-family: Poppins;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     font-size: 10px;
     cursor: pointer;
+  }
+
+  .dropdown a {
+    font-family: Poppins;
+    font-size: 12px;
   }
 
   .boton-rounded {
@@ -229,11 +238,11 @@ header.hidden {
 
   .Alogo {
     padding: 6px;
-    width: 5%;
+    width: 10%;
   }
 
   .dropdown a {
-  font-size: 10px;
+    font-size: 10px;
   }
 }
 
@@ -253,17 +262,17 @@ header.hidden {
   margin-top: 6%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 
 
   .and {
     margin-top: 230px;
-    font-size: 30px;
+    font-size: 25px;
     padding: 100px;
   }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 320px) {
 
   .and {
     margin-top: 230px;
@@ -271,6 +280,7 @@ header.hidden {
     padding: 50px;
   }
 }
+
 
 /*--------------------------------------------------------------
 # SectionBnbslaider
@@ -321,19 +331,20 @@ max-width: 100%;
 /* Modo adaptativo */
 @media (max-width: 768px) {
   .image-list img {
-    max-width: 90px;
+    max-width: 50%;
     height: 60px;
   }
 }
 
 @media (max-width: 480px) {
   .image-list img {
-    max-width: 90px;
+    max-width: 50%;
     height: 68px;
     gap: 20px;
 
   }
 }
+
 
 .soportado {
   width: 391.136px;
@@ -1061,7 +1072,7 @@ margin-top: 10%;
   position: absolute;
   color: #fff;
   text-align: center;
-  top: 499%;
+  top: 460%;
   left: 505px;
   line-height: normal;
 }
@@ -1473,16 +1484,20 @@ margin-top: 10%;
     font-size: 20px;
   }
 
-  .content-imagen h1 {
-    margin-top: -23%;
-    font-size: 25px;
-    margin-left: 5%;
-  }
-  .content-imagen img {
-    width: 42.5%;
-    left: 1%;
-    margin-top: -20%;
-  }
+
+.content-imagen h1 {
+  margin-top: -28%;
+  font-size: 25px;
+  margin-left: 5%;
+
+}
+
+
+.content-imagen img {
+  width: 43.3%;
+  left: 1%;
+  margin-top: -20%;
+}
 
   .container-carrusel {
     width: 100%;
@@ -1733,12 +1748,13 @@ margin-top: 10%;
 # EndNewSection
 --------------------------------------------------------------*/
 
+
 footer {
   position: absolute;
   color: #fff;
   text-align: center;
   padding: 10px;
-  top: 5400px;
+  top: 5200px;
   bottom: 0;
   width: 100%;
   height: 35%;
@@ -1750,8 +1766,8 @@ footer {
   margin: 0 15px;
   position: relative;
   margin-top: 4%;
- 
- 
+
+
 }
 
 .tab a {
@@ -1759,7 +1775,7 @@ footer {
   text-decoration: none;
   padding-right: 20px;
   position: relative;
-  
+
 }
 
 .tab::after {
@@ -1781,8 +1797,8 @@ footer {
   z-index: 1;
   font-size: 10px;
   background: #153359;
- 
-  
+
+
 }
 
 .tab:hover .tab-content {
@@ -1796,48 +1812,57 @@ footer {
 
 
 
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
   footer {
 
     top: 3040px;
     display: flex;
-    height: 50%;
+    height: 60%;
   }
 
   .tab {
-    display: inline-block;
-    margin: 0 15px;
-    position: relative;
-    margin-top: 30%;
+
+
+    height: 7%;
+    padding: 10px;
+    margin-top: 40%;
+    font-size: 11px;
+
+
   }
 
   .tab a {
 
-    font-size: 10px;
+    padding-right: 2px;
+
+
   }
 
-  .tab a::after {
-    display: none;
+  .tab::after {
+
+    font-size: 14px;
+    right: -10;
+
   }
 
   .tab-content {
-    display: none;
-    position: absolute;
-    padding: 10px;
-    text-align: left;
-    border-radius: 4px;
-    width: 150px;
-    z-index: 1;
+
+    font-size: 11px;
+    margin-left: -10px;
+
+
   }
 
   .tab:hover .tab-content {
     display: block;
   }
 
+
   .amaxlogo {
     height: 5%;
-    margin-left: -60%;
-    margin-top: 10%;
+    margin-left: -70%;
+    margin-top: 20%;
   }
 }
