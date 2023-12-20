@@ -3896,7 +3896,7 @@
 
       if (showEvent.defaultPrevented || !isInTheDom) {
         return;
-      } // todo v6 remove this OR make it optional
+      } // v6 remove this OR make it optional
 
 
       if (this.tip) {
@@ -4454,7 +4454,7 @@
   };
   const DefaultType$1 = {
     offset: '(number|null)',
-    // TODO v6 @deprecated, keep it for backwards compatibility reasons
+    // v6 @deprecated, keep it for backwards compatibility reasons
     rootMargin: 'string',
     smoothScroll: 'boolean',
     target: 'element',
