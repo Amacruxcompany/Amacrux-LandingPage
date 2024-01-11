@@ -3,19 +3,16 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 
   <title>Amacrux-Landing</title>
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-  <script type="text/javascript" src="./assets/js/jquery.immersive-slider.min.js"></script>
-  <!-- FIXME TODO: ESTA URL NO SE ENCUENTRA, NO CONSEGUI EL ARCHIVO de jquery.immersive-slider.min.js -->
+
   <meta content="" name="description">
   <meta content="" name="keywords">
 
 
   <!-- Favicons -->
   <link href="./assets/img/favicon.png" rel="icon">
-  <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link
@@ -23,9 +20,7 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="./assets/css/cardRoad.css" rel="stylesheet">
-  <link href="./assets/css/reloj.css" rel="stylesheet">
-  <link href="./assets/css/clock.css" rel="stylesheet">
+ 
   <link href="./vendor/aos/aos.css" rel="stylesheet">
   <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="./vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -38,48 +33,10 @@
   <!-- Template Main CSS File -->
   <link href="./assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/slider.css">
-  <link rel="stylesheet" href="./assets/css/cards.css">
+  <link href="./assets/css/cardRoad.css" rel="stylesheet">
+  <link href="./assets/css/reloj.css" rel="stylesheet">
+  <link href="./assets/css/responsive.css" rel="stylesheet">
 
-  <!-- Meta Pixel Code -->
-  <script>
-    ! function (f, b, e, v, n, t, s) {
-      if (f.fbq) return;
-      n = f.fbq = function () {
-        n.callMethod ?
-          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-      };
-      if (!f._fbq) f._fbq = n;
-      n.push = n;
-      n.loaded = !0;
-      n.version = '2.0';
-      n.queue = [];
-      t = b.createElement(e);
-      t.async = !0;
-      t.src = v;
-      s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-      'https://connect.facebook.net/en_US/fbevents.js'); // FIXME TODO: aca no se conecta a facebook, el error dice que nos bloquea el servidor
-    fbq('init', '516638053681015');
-    fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=516638053681015&ev=PageView&noscript=1" /></noscript>
-  <!-- End Meta Pixel Code -->
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BYEML7XLGP"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-BYEML7XLGP');
-  </script>
-  <!-- End Google tag (gtag.js) -->
 
 
 <body>
@@ -100,7 +57,9 @@
       <a class="boton" href="#">PRODUCTS</a>
       <div class="dropdown">
         <a href="https://demo.amacrux.com/" target="_blank">Marketplace demo</a>
-        <a href="#">Swap Soon</a>
+        <a href="#">Swap (Soon)</a>
+        <a href="#">Launchpad (Soon)</a>  
+        <a href="#">API rest (Soon)</a>
 
       </div>
     </div>
@@ -374,13 +333,12 @@
         The Rest API was built using CRUD operations: Create, Read, Modify and Delete; established under the Node.js
         architecture.
       </p>
-    </div>
-
-  </div>
-
   <div class="waths">
-    <h1>What is Amacrux</h1>
+    <h2>What is Amacrux</h2>
   </div>
+    </div>
+  </div>
+
   <section class="slider">
     <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner">
@@ -412,7 +370,7 @@
             <div class="container">
               <div class="row align-items-center">
                 <div class="col-md-7 col-12 order-md-1 order-2">
-                  <h4>SECURE MULTI-CHAIN</h4>
+                  <h4>Secure Multi-Chain</h4>
                   <p>Amacrux aspires to allocate multiple blockchain networks with the goal of creating a globalized and
                     interoperable NFT market, enabling P2P asset trading using the most robust EVM-compatible chains in
                     the crypto space.</p>
@@ -430,7 +388,7 @@
             <div class="container">
               <div class="row align-items-center">
                 <div class="col-md-7 col-12 order-md-1 order-2">
-                  <h4>OPEN SOURCE</h4>
+                  <h4>Open Source</h4>
                   <p>Amacrux code is a complete open source. Anyone can contribute to the codebase, run a node, propose
                     updates for frontend and backend elements or build services on the platform. Currently, the source
                     code is publicly available in GitLab repositories under the link: https://gitlab.com/amacrux
@@ -450,7 +408,7 @@
             <div class="container">
               <div class="row align-items-center">
                 <div class="col-md-7 col-12 order-md-1 order-2">
-                  <h4>DEVELOPER FRIENDLY</h4>
+                  <h4>Developer Friendly</h4>
                   <p>If you want to apply for and be part of the Amacrux development team, leave us a message at our
                     email amacruxmarketswap@gmail.com </p>
                   <a href="#"></a>
@@ -579,7 +537,7 @@
           </figure>
           <div class="contenido-car">
 
-            <a href="#" target="_blank" class="instagram-button ">
+            <a href="https://twitter.com/Amacruxdotcom" target="_blank" class="instagram-button ">
               <img src="./assets/img/twitter.png" alt="Twitter">
             </a>
             <h4>#Amacrux en la Udo</h4>
@@ -594,7 +552,7 @@
             <img src="./assets/img/cards2.png" alt="amacrux">
           </figure>
           <div class="contenido-car">
-            <a href="#" target="_blank" class="instagram-button ">
+            <a href="https://discord.com/invite/dXdDyCQG" target="_blank" class="instagram-button ">
               <img src="./assets/img/discord.png" alt="Discord">
             </a>
             <h4>#Amacrux en la Udo</h4>
@@ -624,7 +582,9 @@
       <a href="#">Products</a>
       <div class="tab-content">
         <a href="https://demo.amacrux.com/" target="_blank">Marketplace demo</a>
-        <a href="#">Swap Soon</a>
+        <a href="#">Swap (Soon)</a>
+        <a href="#">Launchpad (Soon)</a>  <br>
+        <a href="#">API rest (Soon)</a>
       </div>
     </div>
 
@@ -632,6 +592,7 @@
       <a href="#">Support</a>
       <div class="tab-content">
         <a href="pages/faq/index.html" target="_blank">FAQ</a>
+        <br>
         <a href="pages/howitworks/index.html" target="_blank">Howitworks</a>
       </div>
     </div>
@@ -647,7 +608,7 @@
 
   <!-- Vendor JS Files -->
   <script src="./vendor/aos/aos.js"></script>
-  <script src="./assets/js/reloj.js"></script>
+
 
   <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="./vendor/glightbox/js/glightbox.min.js"></script>
@@ -658,12 +619,13 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-11278966-3"></script>
   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- Template Main JS File -->
+
+  <script src="./assets/js/reloj.js"></script>
+  
   <script src="./assets/js/bnbcarrousel.js"></script>
   <!-- FIXME TODO: Error de funcion en bnbcarrousel.js, dice que el metodo slick() NO es una funcion -->
-  <script src="./assets/js/swap.js"></script>
-  <!-- FIXME TODO: ESTA URL NO SE ENCUENTRA, NO CONSEGUI EL ARCHIVO de swap.js -->
   <script src="./assets/js/cardRoad.js"></script>
-  <!-- Template Main JS File -->
   <script src="./assets/js/main.js"></script>
 
 
