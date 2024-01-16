@@ -290,6 +290,45 @@
 }
 
 
+@media  (max-width: 375px){
+
+  #card1 {
+
+    width: 23%;
+    max-height: 150px;
+    margin-top: -3%;
+    left: 13%;
+
+  }
+
+
+
+  #card2 {
+    width: 20%;
+    max-height: 150px;
+    margin-top: -18%;
+    left: 2%;
+
+  }
+
+  #card3 {
+    width: 15%;
+    max-height: 150px;
+    margin-top: -18%;
+    left: 22.2%;
+  }
+
+  #card4 {
+    width: 15%;
+    max-height: 99px;
+    margin-top: -29%;
+    left: 15%;
+  }
+
+
+}
+
+
 
 @media   only screen and (min-width: 260px) and (max-width: 320px) {
 

@@ -24,9 +24,10 @@
 #myCarousel h4 {
 
   position: absolute;
-  top: -28%; 
-  left: 64%; 
-  transform: translate(-50%, -50%); 
+  top: -28%;
+  left: 64%;
+  font-family: 'Yapari Variable Trial', sans-serif;
+  transform: translate(-50%, -50%);
   text-align: center;
   font-family: Trial;
   font-size: 16px;
@@ -65,6 +66,7 @@
   font-size: 10px;
   color: #fff;
   margin-top: 25%;
+  font-family: Genos;
 
 }
 
@@ -336,8 +338,8 @@
 }
 
 
-@media  (max-width: 575px){
-  
+@media (max-width: 575px) {
+
   .slider {
 
     margin-left: 30px;
@@ -409,7 +411,7 @@
 
 
 
-@media only screen and (min-width: 322px) and  (max-width: 480px) {
+@media only screen and (min-width: 322px) and (max-width: 480px) {
 
 
   .slider {
@@ -477,6 +479,74 @@
 
 }
 
+
+
+@media (max-width: 375px) {
+
+
+  .slider {
+
+    margin-left: -22px;
+    position: absolute;
+    margin-top: -2332px;
+  }
+
+  .order-1 {
+    position: relative;
+    left: 65px;
+    top: -20px;
+  }
+
+
+  #myCarousel .carousel-item .mask {
+    width: 35%;
+    height: 50%;
+
+
+  }
+
+
+  #myCarousel .letras {
+
+    width: 75%;
+    font-size: 8px;
+    margin-top: -57%;
+    margin-left: 15%;
+
+
+  }
+
+
+
+  #myCarousel .carousel-item .mask img {
+
+
+    padding-left: 38%;
+    max-width: 70%;
+
+  }
+
+
+  #myCarousel h4 {
+    left: 115px;
+    font-size: 10px;
+    margin-top: -210px;
+
+
+  }
+
+
+  #myCarousel p {
+
+    font-size: 9px;
+    margin-top: -40%;
+    width: 75%;
+    text-align: justify;
+
+  }
+
+
+}
 
 
 @media only screen and (min-width: 260px) and (max-width: 320px) {
